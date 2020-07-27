@@ -16,7 +16,7 @@ class UserList extends React.Component{
     } 
   
     componentDidMount(){  
-       axios.get(`https://cors-anywhere.herokuapp.com/${apiUrl}/GetUserDetails`,  {headers: { 'Content-Type': 'application/json', "origin,X-Requested-With": "XMLHttpRequest" }}).then(response => response.data).then(  
+       axios.get(`https://cors-anywhere.herokuapp.com/${apiUrl}/GetUserDetails`,  {data: { 'Content-Type': 'application/json', "origin,X-Requested-With": "XMLHttpRequest" }}).then(response => response.data).then(  
             (result)=>{  
                 this.setState({  
                     users:result  
