@@ -1,5 +1,6 @@
 import React from 'react';  
 import { Table,Button } from 'react-bootstrap';  
+import './style.css';
 import axios from 'axios';  
   
 const apiUrl = 'http://localhost:55537/api/User';  
@@ -71,7 +72,6 @@ class UserList extends React.Component{
                           <td>{user.location_id}</td>   
                           <td><Button variant="info" onClick={() => this.props.editUser(user.user_id)}>Edit</Button>       
                           <Button variant="danger" onClick={() => this.deleteUser(user.user_id)}>Delete</Button>  
-                          
                           </td>  
                         </tr>  
                       ))}  

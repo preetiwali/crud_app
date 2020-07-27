@@ -87,7 +87,7 @@ class UserActionApp extends Component {
     return (  
       <div className="App">  
  <Container>  
-        <h1 style={{ textAlign: 'center' }}>CRUD operation in React</h1>  
+        <h1 style={{ textAlign: 'center' }}>Invoice Module</h1>  
         <hr></hr>  
         {!this.state.isUserDetails && <Button variant="primary" onClick={() => this.onDetails()}> User Details</Button>}  
         {!this.state.isAddUser && <Button variant="primary" onClick={() => this.onCreate()}>Add User</Button>}  

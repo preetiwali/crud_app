@@ -93,13 +93,13 @@ class AddUser extends React.Component {
                   placeholder="MobileNo" />  
               </Form.Group>  
               <Form.Group controlId="location_id">  
-                <Form.Label>Address</Form.Label>  
+                <Form.Label>Location</Form.Label>  
                 <Form.Control  
                   type="text"  
                   name="location_id"  
                   value={this.state.loaction_id}  
                   onChange={this.handleChange}  
-                  placeholder="Address" />  
+                  placeholder="Location" />  
               </Form.Group>  
   
                
