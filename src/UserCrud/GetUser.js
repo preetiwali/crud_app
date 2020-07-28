@@ -58,11 +58,11 @@ class UserList extends React.Component{
     render(){         
         let {error,users}=this.state;
         users = [{
-          user_id: "1",
-          user_name: "test",  
-          user_email: "test@gmail.com",  
-          user_phone: "976343526211",  
-          location_id: "R&D"
+          // user_id: "1",
+          // user_name: "test",  
+          // user_email: "test@gmail.com",  
+          // user_phone: "976343526211",  
+          // location_id: "R&D"
         }]
         if(error){  
             return(  
